@@ -1,4 +1,4 @@
-### Churn_Prediction
+## Churn_Prediction
 
 ### Software And Tools Requirements
 
@@ -10,3 +10,13 @@
 
 4. [Git CLI](https://git-scm.com/downloads)
 
+**In VS Code IDE Create a new environment ,activate it and install all libraries.**
+
+```
+conda create -p venv python 
+
+conda activate venv/ 
+
+pip install -r requirements.txt
+
+```

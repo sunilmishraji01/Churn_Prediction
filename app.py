@@ -5,7 +5,7 @@ import pandas as pd
 
 app =Flask(__name__)
 # load the model
-with open("/home/sunilmishraji01/sunil/Project/Churn_Prediction/saved__model/tree_clf_V0", "rb") as f:
+with open("saved__model/tree_clf_V0", "rb") as f:
     tree_clf_V0=pickle.load(f)
 
 
